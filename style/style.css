@@ -34,5 +34,59 @@ body{
     background: #e55473ce;
     padding: 20px 43px;
     border: 0;
-    
+}
+/* Featured Flowers-section */
+.Featured{
+
+}
+.section-tittle{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.Featured-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 300px;
+}
+.photo{
+    width: 200px;
+}
+.flowers{
+    display: flex;
+    padding: 50px 150px;
+    justify-content: space-around;
+    gap: 24px;
+}
+.flower-1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 100px 60px 0 60px;
+}
+.flower-2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 100px 60px 0 60px;
+}
+.flower-3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 100px 60px 0 60px;
+}
+.tree{
+    display: flex;
+    padding: 0px 150px;
+    justify-content: space-around;
+}
+
+.color-tree{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
 }

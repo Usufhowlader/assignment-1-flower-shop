@@ -132,3 +132,21 @@ body{
     font-size: 18px;
     font-weight: 400;
 }
+/* Instagram-section */
+.item-img{
+    width: 220px;
+}
+.instagram{
+    padding: 40px 150px 40px 150px;
+}
+.instagram-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.items-photo{
+    display: flex;
+    gap: 25px;
+   
+}

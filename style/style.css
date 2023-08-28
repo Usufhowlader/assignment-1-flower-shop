@@ -105,3 +105,30 @@ body{
 .group-tittle{
     text-align: center;
 }
+/* hot deal-section */
+.hot-deal{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.sale-up{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 40px 200px 40px 200px; 
+    align-items: center;
+}
+.sale-up-tittle{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 600;
+}
+.off{
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 600;
+}
+.sale-up-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}

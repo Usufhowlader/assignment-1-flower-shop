@@ -90,3 +90,18 @@ body{
     font-weight: 700;
     text-decoration-line: underline;
 }
+/* service-section */
+.service{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 50px 140px;
+}
+.groups{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 150px;
+    gap: 20px;
+}
+.group-tittle{
+    text-align: center;
+}

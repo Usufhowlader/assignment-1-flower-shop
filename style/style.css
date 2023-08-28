@@ -150,3 +150,27 @@ body{
     gap: 25px;
    
 }
+/* beautiful-flower-section */
+.beautiful-img{
+    width: 400px;
+}
+.beautiful-flower{
+    background-color: hsla(33, 100%, 50%, 0.301);
+}
+.beautiful{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 40px 150px 0 150px;
+    align-items: center;
+}
+.beautiful-flower-tittle{
+    color: #be0a0a9a;
+    font-size: 30px;
+    font-weight: 600;
+}
+.beautiful-flower-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}

@@ -150,31 +150,59 @@ body{
     gap: 25px;
    
 }
-/* beautiful-flower-section */
-.beautiful-img{
-    width: 400px;
+/* best collection-section */
+.best-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 3px;
 }
-.beautiful-flower{
-    background-color: hsla(33, 100%, 50%, 0.301);
+.best-collection{
+    padding: 40px 150px 40px 150px;
     margin: 50px 0;
 }
-.beautiful{
-    display: flex;
-    gap: 10px;
-    justify-content: space-between;
-    padding: 40px 150px 0 150px;
-    align-items: center;
+.best-collection-group{
+     display: flex;
+     justify-content: space-around;
+    gap: 20px;
 }
-.beautiful-flower-tittle{
-    color: #be0a0a9a;
-    font-size: 30px;
-    font-weight: 600;
+.group-tittle{
+    padding:  20px;
+    background-color: rgba(210, 105, 30, 0.623);
+    border-radius: 5px;
 }
-.beautiful-flower-description{
-    color: rgba(39, 39, 39, 0.60);
+.collection-tittle{
+    color: rgba(39, 39, 39, 0.527);
+    text-align: center;
     font-size: 18px;
     font-weight: 400;
 }
+.rate{
+    display:flex;
+    justify-content: space-between;
+    margin-top:5px ;
+}
+.rate-tittle{
+    color: rgba(75, 12, 12, 0.89);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+.rate-description{
+    color: rgba(255, 255, 0, 0.568);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.btn{
+    color: #FFF;
+    background-color: hsla(0, 100%, 50%, 0.555);
+    padding: 10px 15px;
+    text-align: center;
+    border: 0;
+    border-radius: 5px;
+}
+
+
 /* Latest Deals-section */
 .Latest-deals{
     background-image: url(../images/Rectangle\ 9.png);

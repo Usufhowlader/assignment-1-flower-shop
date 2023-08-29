@@ -69,12 +69,12 @@ body{
 }
 .flower-2{
     border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15);
+    background: rgba(0, 128, 0, 0.192);
     padding: 100px 60px 0 60px;
 }
 .flower-3{
     border-radius: 300px 300px 0px 0px;
-    background: rgba(71, 125, 17, 0.15);
+    background: rgba(0, 0, 255, 0.178);
     padding: 100px 60px 0 60px;
 }
 .tree{
@@ -91,19 +91,29 @@ body{
     text-decoration-line: underline;
 }
 /* service-section */
+.service-img{
+    width: 88px;
+    height: 88px;
+    flex-shrink: 0;
+}
 .service{
     border-radius: 8px;
-    background: rgba(39, 39, 39, 0.05);
+    background: rgba(39, 39, 39, 0.178);
     margin: 50px 140px;
 }
 .groups{
     display: flex;
     justify-content: space-around;
-    padding: 80px 150px;
-    gap: 20px;
+    padding: 80px 100px;
+    gap: 10px;
 }
-.group-tittle{
+.service-tittle{
     text-align: center;
+}
+.service-description{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 16px;
+    font-weight: 400;
 }
 /* hot deal-section */
 .hot-deal{
@@ -157,7 +167,7 @@ body{
     border-radius: 3px;
 }
 .best-collection{
-    padding: 40px 150px 40px 150px;
+    padding: 0px 150px 40px 150px;
     margin: 50px 0;
 }
 .best-collection-group{
@@ -201,8 +211,6 @@ body{
     border: 0;
     border-radius: 5px;
 }
-
-
 /* Latest Deals-section */
 .Latest{
     background: url(<path-to-image>), lightgray 0px -203.444px / 100% 213.755% no-repeat;
@@ -235,4 +243,35 @@ input{
     flex-shrink: 0;
     border: 0;
     padding: 5px;
+}
+/* footer-section */
+.footer{
+    background-color: hsla(0, 0%, 0%, 0.932);
+    margin-top: 100px;
+}
+.shop{
+    padding: 30px 350px;
+}
+.shop-tittle{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+.shop-tittle-2{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+}
+.shop-description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.flowershop{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
